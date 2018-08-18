@@ -1,0 +1,45 @@
+Enlist few of the repetitively ask java related to questions with the solutions 
+Inheritances 
+Polymorphism
+Abstraction
+Encapsulation
+
+Inheritances : 
+One class want to access the features of other class this can be done by inheritances .
+Def: Object of one class acquire property of object of another class.
+  Class A
+{
+  Void f1()
+{
+System.out.println(“Hello Word”);
+}
+
+}
+Class B extends A
+{
+
+
+Void f2()
+{
+System.out.println(“I am inner class”);
+}
+}
+
+Here Class B can extends the function which is defined by class A( base class) . so class B can access f1() method directly.
+main()
+{
+ B obj1=new B();
+obj1.f1(); 
+ 	// it will call the base class methods (code reusability done here no need to write same methods
+}
+--------------------------------------------
+Advantages of Inheritances :
+Code reusability is done by inheritances.
+We can add additional features to an existing class without modifying  it.
+	
+======================================================================
+
+
+
+
+
